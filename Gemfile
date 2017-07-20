@@ -5,6 +5,27 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#controller degli stati
+gem 'aasm'
+#friendly
+gem 'friendly_id', '~> 5.1.0'
+# dotenv-rails
+gem 'dotenv-rails', groups: [:development, :test]
+#will pageinate
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-materialize', github: 'harrybournis/will_paginate-materialize'
+#amazon aws
+gem 'aws-sdk', '~> 2.3'
+#paperclip
+gem 'paperclip'
+#devise
+gem 'devise'
+#jquery-rails
+gem 'jquery-rails'
+#materialize-sass
+gem 'materialize-sass'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
