@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :dblegos
   devise_for :utentis
   root 'pages#home'
 

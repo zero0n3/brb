@@ -1,0 +1,2 @@
+class Dblego < ApplicationRecord
+end
